@@ -1,0 +1,29 @@
+{
+  "name": "gem-timeline-data",
+  "version": "1.0.0",
+  "description": "邓紫棋(G.E.M.)的时间线数据，包含从1991年至今的重要事件",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "publish:patch": "./publish.sh patch",
+    "publish:minor": "./publish.sh minor",
+    "publish:major": "./publish.sh major",
+    "publish:dry": "npm publish --dry-run",
+    "publish:local": "npm run build && npm publish"
+  },
+  "keywords": [
+    "邓紫棋",
+    "G.E.M.",
+    "时间线",
+    "音乐",
+    "歌手"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
