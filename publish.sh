@@ -29,8 +29,9 @@ echo "创建标签..."
 git tag v$new_version
 
 # 推送代码和标签
-echo "推送代码和标签..."
-git push origin master
+ echo "推送代码和标签..."
+-git push origin master
++git push origin main
 git push origin v$new_version
 
 echo "发布流程已完成！GitHub Actions 将自动发布到 npmjs。"
