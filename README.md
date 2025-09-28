@@ -66,7 +66,7 @@ novelTimelineData 包含小说中的时间线事件。
 
 chapterPageData 包含小说各章节的页面信息。
 
-revelationNovelConceptsData 包含从小说启示路中提取的概念数据。
+revelationNovelConceptsData 包含从小说启示路中提取的概念数据。小说启示路是一个与人工智能相关的内容项目，更多信息可访问：https://qcgm1978.github.io/revelation
 
 ## 许可证
 
