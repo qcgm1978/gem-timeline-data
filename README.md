@@ -14,7 +14,7 @@ cnpm install gem-timeline-data
 
 ```javascript
 // 导入数据和类型
-import { gemTimelineData, novelTimelineData, chapterPageData, revelationNovelConceptsData } from 'gem-timeline-data';
+import { gemTimelineData, novelTimelineData, chapterPage, revelationNovelConceptsData } from 'gem-timeline-data';
 import type { TimelineData, TimelineYear, Event, ChapterPageData, RevelationNovelConceptsData } from 'gem-timeline-data';
 
 // 使用数据
