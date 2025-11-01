@@ -117,7 +117,7 @@
     {"term": "Mel频谱图", "pages": ["p121"], "term_en": "Mel Spectrogram"},
     {"term": "Deepmind", "pages": ["p124"], "term_en": "DeepMind"},
     {"term": "李飞飞", "pages": ["p124"], "term_en": "Fei-Fei Li"},
-    {"term": "小样本学习", "pages": ["p125"], "term_en": "Few-shot Learning"},
+    {"term": "小样本学习", "pages": ["p125","c13","c17"], "term_en": "Few-shot Learning"},
     {"term": "记忆辅助神经网络", "pages": ["p125"], "term_en": "Memory-aided Neural Network"},
     {"term": "过拟合", "pages": ["p125"], "term_en": "Overfitting"},
     {"term": "阿西莫夫三定律", "pages": ["p126"], "term_en": "Asimov's Three Laws"},
@@ -127,7 +127,6 @@
     {"term": "机械臂", "pages": ["p191"], "term_en": "Robotic Arm"},
     {"term": "奇点", "pages": ["p257"], "term_en": "Singularity"},
     {"term": "涌现", "pages": ["p30"], "term_en": "Emergence"},
-    {"term": "单样本学习", "pages": ["c13"], "term_en": "One-shot Learning"},
     {"term": "仿真度", "pages": ["c13"], "term_en": "Fidelity"},
     {"term": "标记数据", "pages": ["c16"], "term_en": "Labeled Data"},
     {"term": "audio特征", "pages": ["c16"], "term_en": "Audio Features"}
