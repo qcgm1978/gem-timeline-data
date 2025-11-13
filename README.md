@@ -1,6 +1,6 @@
 # gem-timeline-data
 
-邓紫棋(G.E.M.)的时间线数据，包含从1991年出生至今的关键人生事件，以及小说时间线数据、章节页面数据和小说启示路里的概念数据。
+邓紫棋(G.E.M.)的时间线数据，包含从1991年出生至今的关键人生事件，以及小说时间线数据、章节页面数据和小说启示路相关数据。
 
 ## 安装
 
@@ -14,8 +14,8 @@ cnpm install gem-timeline-data
 
 ```javascript
 // 导入数据和类型
-import { gemTimelineData, novelTimelineData, chapterPage, revelationNovelConceptsData } from 'gem-timeline-data';
-import type { TimelineData, TimelineYear, Event, ChapterPageData, RevelationNovelConceptsData } from 'gem-timeline-data';
+import { gemTimelineData, novelTimelineData, chapterPage, revelationNovelData } from 'gem-timeline-data';
+import type { TimelineData, TimelineYear, Event } from 'gem-timeline-data';
 
 // 使用数据
 console.log(gemTimelineData);
@@ -24,11 +24,17 @@ console.log(gemTimelineData);
 console.log(novelTimelineData);
 // 输出小说的时间线数据
 
-console.log(chapterPageData);
+console.log(chapterPage);
 // 输出章节页面数据
 
-console.log(revelationNovelConceptsData);
+console.log(revelationNovelData);
+// 输出小说启示路相关数据对象
+
+console.log(revelationNovelData.concepts);
 // 输出小说启示路里的概念数据
+
+console.log(revelationNovelData.musicData);
+// 输出小说启示路相关的音乐数据
 
 // 获取特定年份的数据
 const year2022 = gemTimelineData.find(item => item.year === '2022');
@@ -42,8 +48,10 @@ console.log(novelYear2020);
 
 - `gemTimelineData`: 包含邓紫棋所有年份的时间线数据数组
 - `novelTimelineData`: 包含小说时间线数据的数组
-- `chapterPageData`: 包含章节页面信息的数据
-- `revelationNovelConceptsData`: 包含小说启示路里的概念提取数据
+- `chapterPage`: 包含章节页面信息的数据
+- `revelationNovelData`: 包含小说启示路相关数据的对象
+  - `concepts`: 小说启示路里的概念提取数据
+  - `musicData`: 小说启示路相关的音乐数据
 - 每个年份对象包含：
   - `year`: 年份字符串
   - `events`: 事件数组
@@ -66,7 +74,7 @@ novelTimelineData 包含小说中的时间线事件。
 
 chapterPageData 包含小说各章节的页面信息。
 
-revelationNovelConceptsData 包含从小说启示路中提取的概念数据。小说启示路是一个与人工智能相关的内容项目，更多信息可访问：https://qcgm1978.github.io/revelation
+revelationNovelData 包含从小说启示路中提取的数据，包括概念数据和音乐相关数据。小说启示路是一个与人工智能相关的内容项目，更多信息可访问：https://qcgm1978.github.io/revelation
 
 ## 许可证
 

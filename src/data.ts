@@ -1,6 +1,7 @@
 import type { TimelineData } from './types';
 import chapterPageData from './chapter_page.json';
 import revelationNovelConceptsData from './extraction_results.json';
+import revelationNovelConceptsMusicData from './extraction_results_data.json';
 
 export const gemTimelineData: TimelineData = [
   {
@@ -637,4 +638,7 @@ export const novelTimelineData: TimelineData = [
 
 export const chapterPage = chapterPageData;
 
-export const revelationNovelConcepts = revelationNovelConceptsData;
+export const revelationNovelData = {
+  concepts: revelationNovelConceptsData,
+  musicData: revelationNovelConceptsMusicData
+};
