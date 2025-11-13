@@ -139,7 +139,7 @@
     {"term": "七印", "pages": ["p127"], "term_en": "Seven Seals"},
     {"term": "旷野游荡", "pages": ["p122"], "term_en": "Wandering in the Wilderness"},
     {"term": "渴慕神", "pages": ["p177"], "term_en": "Longing for God"},
-    {"term": "创世纪", "pages": ["p177"], "term_en": "Genesis"},
+    {"term": "创世纪", "pages": ["p177","c65"], "term_en": "Genesis"},
     {"term": "道成肉身", "pages": ["p198"], "term_en": "Incarnation"},
     {"term": "神的信", "pages": ["p211", "p255"], "term_en": "God's Faith"},
     {"term": "马太福音", "pages": ["p221"], "term_en": "Matthew"},
